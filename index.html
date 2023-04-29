@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+    <script type="text/javascript" src="src/index.js">
+      function increment(){
+        const num = parseInt(document.getElementById("counter").innerHTML)
+        document.getElementById("counter").innerHTML=num+1
+      }
+    </script>
+  </head>
+  <body>
+    <h1 id="counter">0</h1>
+    <button onclick="increment()">+1</button>
+  </body>
+</html>
